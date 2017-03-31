@@ -1,0 +1,48 @@
+#img_div{
+		display: inline;
+		padding: 5px;
+		margin: 15px auto;
+		
+	}
+#img_div:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+img{
+ 
+    padding:5px;
+    border: 1px solid #cbcbcb;
+		float: left;
+		margin: 5px;
+		width: 300px;
+		height: 140px;
+	}
+form{
+    content: "";
+		display: block;
+		clear: both;
+    margin-left: 500px;
+   margin-bottom:40px;
+    
+}
+
+.submit{
+    margin-top: 20px;
+    background: #a12b4b;
+    border-radius: 7px;
+    padding: 10px;
+    color:white;
+}
+button{
+   
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: 3px;
+    background: #acbcac;
+}
+button a{
+     text-decoration: none;
+    
+}
